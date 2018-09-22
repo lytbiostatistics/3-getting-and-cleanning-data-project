@@ -1,4 +1,4 @@
-packages <- c("data.table", "reshape2")
+packages <- c("reshape2"，"data.table")
 sapply(packages, require, character.only=TRUE, quietly=TRUE)
 path <- getwd()
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
